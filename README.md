@@ -1,25 +1,26 @@
+# Simple Calculator 🧮
 
-# Simple Calculator
+My first programming project built with Python.  
+This is a simple terminal-based calculator that supports basic arithmetic operations and a square root function.
 
-أول مشروع لي في البرمجة باستخدام بايثون.  
-آلة حاسبة بسيطة تدعم:
+## Features ✨
+- Addition (+)
+- Subtraction (-)
+- Multiplication (*)
+- Division (/)
+- Modulo (%)
+- Square root (√)
 
-- جمع (+)
-- طرح (-)
-- ضرب (*)
-- قسمة (/)
-- باقي القسمة (%)
-- جذر تربيعي (√)
+## How to use ▶️
+1. Run the script.
+2. Choose an operation from the menu.
+3. Enter the required numbers.
+4. View the result.
 
-## كيفية الاستخدام
-1. شغّل البرنامج.
-2. اختر رقم العملية.
-3. أدخل الأرقام.
-4. شوف النتيجة.
-
-## الأدوات المستخدمة
+## Tools used 🛠️
 - Python 3
 - math library
 
-تاريخ المشروع: مارس 2026
-تقديم: الطالبة رواد كمال وسوف
+## Project status 🚀
+Completed – First version (March 2026)  
+Eng.Rawad Wassouf
