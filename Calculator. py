@@ -1,0 +1,38 @@
+ import math
+while True:
+    print(" \n1,+ ")
+    print(" 2,- ")
+    print(" 3,* ")
+    print(" 4,/ ")
+    print(" 5,% ")
+    print(" 6,√")
+    print(" 7,exit ")
+    ch=input(" Select the operation number :")
+    if ch=="7" :
+        print(" Goodbye ")
+        break
+    if ch=="6" :
+        x=float(input(" enter num: "))
+        if x>=0 :
+            print(" score ",math.sqrt(x))
+        else:
+                print(" It is an error: the root of a negative number cannot be calculated. ")
+               
+    if ch in ["1","2","3","4","5"] :
+        x=float(input(" enter first num: "))
+        y=float(input(" enter second num: "))
+        if ch=="1" :
+            print(" score ",x+y)
+        elif ch=="2" :
+               print(" score ",x-y)
+        elif ch =="3" :
+               print(" score ",x*y)
+        elif ch=="4":
+              if y !=0 :
+                 print(" score ",x/y)
+              else:
+                     print(" Error: division by zero. ")
+        elif ch=="5" :
+                print (" score ",x%y)
+else:
+        print(" Incorrect choice.")
